@@ -1,0 +1,61 @@
+
+body {
+  background-image: url('KaiBubbbles2.jpg');
+  background-size: cover;
+  background-position: left;
+  height: 700px;
+}
+
+h1 {
+  text-align: left;
+}
+
+h2{
+  text-align: center;
+  margin: 10px auto;
+}
+
+.container {
+  /*background-color: rgb(255, 255, 255);*/
+  padding: 10px 0;
+}
+
+.marker {
+  width: 400px;
+  height: 50px;
+  /*margin: 20px auto;*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cap {
+  width: 120px;
+  height: 50px;
+}
+
+.sleeve {
+  width: 220px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap, .sleeve {
+  display: inline-block;
+}
+
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.9);
+}
+
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.9);
+}
+
